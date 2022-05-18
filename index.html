@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thin Crust Pizza New-Delhi</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  <style>
+  .bgimg1{
+    background-image: url(images/re1.jpg);
+    background-size: cover;
+    height: 650px;
+    margin-left: 5px;
+    z-index: 4;
+    
+    
+}
+.men{
+    background-color:black;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    width: 98.35%;
+   margin-top: 20px;
+   opacity: .7;
+   z-index: 5;
+}
+.men2{
+    background-color: black;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+ position: relative;
+ font-size: larger;
+ font-style: italic;
+ color: aliceblue;
+ text-decoration: none;
+ z-index: 5;
+ 
+}
+.firstpage1{
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    z-index: 1;
+}
+
+.men3{
+    display:flex;
+    position: relative;
+    z-index: 3;
+    
+}
+.bg3{
+    background-image: url(images/b4.jpg);
+    height: 1000px;
+   width: auto;
+    z-index: 0;
+}
+
+.bg2{
+   color: aliceblue;
+   margin-left: 200px;
+   position: relative;
+}
+
+
+.i3{
+    display: flex;
+    column-gap: 90px;
+    
+  
+}
+.bg4{
+    background-color: black;
+     height: 475px;
+     width: 400px;
+     border-radius: 20px;
+     border-style: solid;
+
+}
+.bg4box{
+    background-color: antiquewhite;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.bg4box2{
+    background-color: darkgreen;
+    height: 25px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.bg52{
+    display: flex;
+    column-gap: 30px;
+}
+.bg3j:hover{
+    transform: scale(1.2);
+}
+.dropdownlist{
+        list-style-type: none;
+        background-color: black;
+        display: inline-block;
+        padding: 20px;
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        display: none;
+    }
+
+    .menu-visible
+    {
+        display: block;
+    }
+    *{
+        margin-top: 0px;
+    }
+    li{
+        margin: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        color:antiquewhite;
+    }
+    .hamburger{
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+
+    .closeb{
+        display: none;
+    }
+    .bg2h{
+        height: 50px;
+        width: auto;
+        background-color: black;
+        opacity: .85;
+        margin-top: 10px;
+    }
+    .bg2i{
+        background-image: url(images/about-bg.jpg);
+        max-width: 100%;
+        background-size: contain;
+        height: 800px;
+        position:relative ;
+        
+    }
+    .bg2ii{
+        background-image: url(images/about.jpg);
+      
+        background-size: contain;
+        width: 600px;
+        height:400px;
+       border-radius: 15px;
+    }
+    
+    .box2{
+        background: none;
+        height: 500px;
+        max-width: 100%;
+        padding-top: 240px;
+    }
+    .bg2ii:hover{
+        transform: scale(1.2);
+    }
+  .bg3j:hover{
+      transform: scale(1.1);
+  }
+
+  table[dirh="c"]{
+    background-color: black;
+            border: solid 2px gray;
+           border-radius: 15px;
+            padding: 25px;
+  }
+tr,td{
+    color: aliceblue;
+    font-style: italic!important;
+    padding-top: 15px;
+}
+select{
+    width:150px;
+    
+}
+input{
+    width: 150px;
+}
+
+       .bg5{
+    max-width:100% ;
+    height: 1100px;
+    background-color: black;
+}
+.boxw{
+    height:25px ;
+    width: 130px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 350px;
+    border-radius:10px;
+    padding-left:50px;
+    padding-top: 8px;
+    color: black;
+    border: solid 2px red;
+}
+textarea{
+            border: solid 5px grey;
+        }
+       input:invalid,textarea:invalid{
+           border: solid 3px red;
+       }
+  </style>
+</head>
+<body>
+
+    <div class="bgimg1">
+        <div class="men ">
+            <button class="men2" ><a href="" class="men2"> Thin Pizza Crust</a></button>
+            <button class="men2" > <a href="#menu" class="men2">Menu </a></button>
+            <button class="men2"><a href="#aboutus" class="men2"> ABout Us</a></button>
+            <button class="men2"><a href="#order here" class="men2"> Order Here </a></button>
+            <button class="men2"><a href="#contact us" class="men2"> Contact Us </a></button>
+            <button class="hamburger">
+                <span class="material-icons menub">
+                    menu
+                    </span>
+                    <span class="material-icons closeb">
+                        close
+                        </span>
+            </button>
+         <ul class="dropdownlist ">
+             <li> <a href="">Home</a></li>
+             <li> <a href="#menu">Menu</a></li>
+             <li> <a href="#aboutus">About Us</a></li>
+             <li> <a href="#order here">Order Here</a></li>
+             <li> <a href="#contact us">Contact Us</a></li>
+         </ul><br>
+        </div>
+        <div class="firstpage1" >
+     <div style=" font-size: 40px; font-style: italic; color: black; text-shadow: 10px 10px 5px black; margin-left: 40%; z-index: 0;" > Thin </div>
+     <div style="font-size: 40px; font-style: italic;  color: black; text-shadow: 10px 10px 5px black; z-index: 0; margin-left: 20%;" >  Crust Pizza</div><br>
+     <div style="cursor: pointer; background-color: gray; height: 30px; width: 260px; box-shadow: 5px 5px 5px 5px black; color: aliceblue; font-size: larger; z-index: 0;"  > <a href="#menu"><span style="padding-left: 5px; font-size: 30px; z-index: 0;"> Let me see the menu</span></a></div>
+    </div>
+    </div>
+    <hr>
+    <div >
+        <div class="bg2h" ><div style="color: aliceblue; margin-left: 50%; font-size: x-large; padding-top: 10px; " id="aboutus" >About Us</div>  </div>
+    
+        <div class="bg2i">
+            <div class="bg52 box2">
+                <div  style=" font-style: italic!important; color: aliceblue;  font-size: 18px; text-shadow: 10px 10px 10px 10px black;" ><pre>
+                    <span style="color: aliceblue; font-style: italic!important; font-size: 40px; text-shadow: 10px 10px 10px 10px black;" > <b> Who Are We?</b></span>
+                    Thin Crust Pizza Restaurants 
+                    that has been in pizza business
+                    for over 10years now and offers 
+                    a very unique atmosphere
+                    for customers in addition to home 
+                    delivery services for all
+                    pizza orders and we know that pizza 
+                    is a family meal which popular
+                    around the world and that has resulted 
+                    in a large number of chains of
+                    pizza restaurants but non of
+                    them is the best than  Thin Crust Pizza.
+                 </pre></div>
+                <div class="bg2ii " ></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div>
+    <div class="bg2h" ><div style="color: aliceblue; margin-left: 50%; font-size: x-large; padding-top: 10px; " id="menu" >Menu</div>  </div>
+    <div class="bg3">
+        <div class="i3">
+        <div class="bg3j">
+            
+            <img src="images/p1.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 90px; box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 150px; text-shadow: 10px 10px 10px 10px black;">Margherita <br><span style="padding-left: 30px;"> ₹399</span> </p>
+        </div>
+        <div class="bg3j">
+            
+            <img src="images/p2.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 50px; box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 150px; text-shadow: 10px 10px 10px 10px black;">Tuna Fish <br><span style="padding-left: 30px;"> ₹349</span> </p>
+        </div>
+        <div class="bg3j">
+            
+            <img src="images/p3.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 50px;  box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 150px; text-shadow: 10px 10px 10px 10px black;">BBQ Pizza <br><span style="padding-left: 30px;"> ₹499</span> </p>
+        </div>
+    </div>
+    <div class="i3">
+        <div class="bg3j">
+            
+            <img src="images/p4.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 110px; box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 160px; text-shadow: 10px 10px 10px 10px black;">Turkish Pizza <br><span style="padding-left: 30px;"> ₹599</span> </p>
+        </div>
+        <div class="bg3j">
+            
+            <img src="images/p2.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 50px; box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 150px; text-shadow: 10px 10px 10px 10px black;">Vegan Pizza <br><span style="padding-left: 30px;"> ₹449</span> </p>
+        </div>
+        <div class="bg3j">
+            
+            <img src="images/p12.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 50px;  box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 90px; text-shadow: 10px 10px 10px 10px black;">California Pizza. <br><span style="padding-left: 60px;"> ₹499</span> </p>
+        </div>
+    </div>
+    <div class="i3">
+        <div class="bg3j">
+            
+            <img src="images/p9.jpg" alt="pizza image" style="height:180px ;   padding-top: 40px; padding-left: 90px; box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 150px; text-shadow: 10px 10px 10px 10px black;">Sicilian Pizza <br><span style="padding-left: 30px;"> ₹699</span> </p>
+        </div>
+        <div class="bg3j">
+            
+            <img src="images/p10.jpg" alt="pizza image" style="padding-top: 40px; padding-left: 50px; box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px; font-style: italic!important; color: aliceblue; padding-left: 110px; text-shadow: 10px 10px 10px 10px black;">Greek Pizza<br><span style="padding-left: 50px;"> ₹549</span> </p>
+        </div>
+        <div class="bg3j">
+            
+            <img src="images/p11.jpg" alt="pizza image" style=" height: 180px; width: 250px;  padding-top: 40px; padding-left: 80px;  box-shadow: 5px 5px 5px 5px black;"> 
+           <p style="font-size: 30px;  font-style: italic!important; color: aliceblue; padding-left: 90px; text-shadow: 10px 10px 10px 10px black;">Neapolitan Pizza <br><span style="padding-left: 60px;"> ₹299</span> </p>
+        </div>
+    </div>
+    
+    </div>
+</div>
+    <div>
+        <div class="bg2h" ><div style="color: aliceblue; margin-left: 50%; font-size: x-large; padding-top: 10px; " id="order here" >Order Here</div>  </div>
+        <center>
+       <table dirh="c"> 
+           <tr > <td style="padding-left: 20px;"><span style="color: aliceblue; font-size: x-large;"> Pick your Pizza Flavour </span> </td> </tr>
+           <tr > <td style="padding-left: 60px;">
+               <select >
+                   <option >  Margherita </option>
+                   <option >Tuna Fish</option>
+                   <option >BBQ Pizza</option>
+                   <option >Turkish Pizza</option>
+                   <option >Vegan Pizza</option>
+                   <option >California Pizza</option>
+                   <option >Sicilian Pizza</option>
+                   <option >Greek Pizza</option>
+                   <option >Neapolitan Pizza</option>
+               </select>
+                </td> </tr>
+                <tr > <td  style="padding-left: 10px;"><span style="color: aliceblue; font-size: x-large;"> Chose your preferred Size </span> </td> </tr>
+                <tr > <td  style="padding-left: 60px; ">
+                    <select >
+                        <option >  Small</option>
+                        <option >Medium</option>
+                        <option >Large</option></select></td>
+                    </tr>
+
+                        <tr > <td><span style="color: aliceblue; font-size: x-large;"> Chose your favourite Crust </span> </td> </tr>
+                        <tr > <td  style="padding-left: 60px; ">
+                            <select >
+                                <option > Thin Crust Pizza</option>
+                                <option >Thick Crust Pizza</option>
+                               </select></td>
+                            </tr>
+
+                            <tr > <td><span style="color: aliceblue; font-size: x-large;"> Select your favourite Toppings </span> </td> </tr>
+                            <tr > <td  style="padding-left: 60px; ">
+                                <select >
+                                    <option > Tomato</option>
+                                    <option >Extra Cheese</option>
+                                    <option > Onion</option>
+                                    <option >Fresh garlic</option>
+                                   </select></td>
+                                </tr>
+
+
+                                <tr > <td style="padding-left: 50px;" ><span style="color: aliceblue; font-size: x-large;"> Number of Pizza's</span> </td> </tr>
+                                <tr > <td  style="padding-left: 60px; "><input type="number" name="no of pizza's" max="50" required/></td>
+                                   
+                                 </tr>
+                                 <td style="padding-left: 100px;" > <button onclick="checkout1()" style="border: solid 2px grey; border-radius: 3px;" >Checkout</button> </td>
+       </table>
+    </center>
+
+
+    </div>
+    <div class="bg2h" ><div style="color: aliceblue; margin-left: 50%; font-size: x-large; padding-top: 10px; " id="contact us" >Contact Us</div>  </div>
+
+    <div>
+        <div  class="bg5" id="wp">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d112071.24892179565!2d77.1174513990268!3d28.622972087414997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spacific%20mall!5e0!3m2!1sen!2sin!4v1649521781685!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div style="display: flex;">
+        <img src="images/placeholder.png" style="width: 50px; height: 50px; padding-left: 100px; padding-top: 100px;" alt="location logo">
+        <p id="anki" style="padding-top: 110px ; color: aliceblue;  padding-left:10px;"> <br> </p>
+       <table>
+           <tr>
+              
+               <td >
+               <p style="padding-top:100px; padding-left: 80px; color:aliceblue ;" > YOUR NAME :<input type="text" name="your name" style=" height: 25px;border-radius:10px " required ></p>
+            </td>
+               <td>
+                   <p style="padding-top:100px; padding-left: 80px; color:aliceblue ;" > YOUR EMAIL: <input type="text" name="your email"  style=" height: 25px; border-radius:10px " required></p>
+                   
+               </td>
+           </tr>
+       </table>
+    </div>
+    
+    <div style="display: flex;">
+        <img src="images/clock.png" style="width: 50px; height: 50px; padding-left: 100px; padding-top: 30px;" alt="clock logo">
+        <p id="ankit" style="padding-top: 30px ; color: aliceblue;  padding-left:10px;"> <br> </p>
+        <table>
+            <tr>
+                <td>
+                    <p style="padding-top:15px; padding-left: 130px; color:aliceblue ;">SUBJECT: <input type="text" max="150" style="width: 570px; height: 50px; border-radius:10px ;" required> </p>
+                </td>
+            </tr>
+        </table>
+       
+    
+    </div>
+    <div style="display: flex;">
+        <img src="images/gmail.png" style="width: 50px; height: 50px; padding-left: 100px; padding-top: 30px;" alt="email logo">
+        <p id="ankitn" style="padding-top: 40px ; color: aliceblue; padding-left:10px;"> <br> </p>
+        <table>
+            <tr>
+                <td>
+                    <p style="padding-top:15px; padding-left: 110px; color:aliceblue ;">MESSAGE: <input type="text" max="500" style="width: 570px; height: 50px;  border-radius:10px ;"  required> </p>
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+    
+    <div style="display: flex;">
+        <img src="images/phone-call.png" style="width: 50px; height: 50px; padding-left: 100px; padding-top: 30px;" alt="phone logo">
+        <p id="ankitneh" style="padding-top: 40px ; color: aliceblue; padding-left: 10px;"> <br> </p>
+     <div class="boxw " style="font-style: italic ; font-size: large; border: 5px 5px 5px 5px black;"> Send Message</div>
+    </div>
+    <br><br>
+    <center><div style="color: aliceblue; font-family: 'Grape Nuts', cursive; font-size: 25px;"> Thin Crust Pizza</div></center>
+    <br>
+    <center><div> <img src="images/facebook.png" alt="facebook image" style="height:40px ; width: 40px;">
+        <img src="images/instagram.png" alt="instagram image" style="height: 40px; width: 40px; margin-left: 10px;">
+        <img src="images/twitter.png" alt="twitter image" style="height: 40px; width: 40px; margin-left: 10px;">
+     </div></center>
+     <br>
+     <center>
+         <div style="color: aliceblue;" id="cse2" ></div>
+     </center>
+    
+     
+
+    </div>
+    
+    <script>
+        function checkout1(){
+            alert("your order is completed");
+        }
+        let hamburger = document.querySelector(".hamburger");
+        let dropdownlist = document.querySelector(".dropdownlist");
+        let menub = document.querySelector(".menub");
+        let closeb = document.querySelector(".closeb");
+        hamburger.addEventListener("click", ()=>{
+           
+            if(dropdownlist.classList.contains("menu-visible"))
+            {
+    
+                dropdownlist.classList.remove("menu-visible");
+                menub.style.display= "block";
+                closeb.style.display = "none";
+            }
+            else
+            {
+                dropdownlist.classList.add("menu-visible");
+                menub.style.display= "none";
+                closeb.style.display = "block";
+    
+            }
+       
+        });
+
+        const ob=JSON.parse('{ "place":"Location:","adress":"New delhi near pacific mall"    }')
+document.getElementById("anki").innerHTML=ob.place + "<br>"+  ob.adress ;
+const ob1=JSON.parse('{ "hr":"Open hours:","week":"Monday - Saturday:","time":" 11Am-23Pm"    }')
+document.getElementById("ankit").innerHTML=ob1.hr +"<br>"+ ob1.week + "<br>"+  ob1.time ;
+
+class anku{
+
+    constructor(name){
+        this.name=name;
+    }
+}
+
+class nehra extends anku{
+    constructor(name,sname){
+        super(name);
+        this.sname=sname;
+    }
+
+    show(){
+
+        return this.name + "<br>"+ this.sname
+    }
+}
+let ob2= new nehra("Email:","nehra2042@gmail.com")
+document.getElementById("ankitn").innerHTML= ob2.show();
+class jind{
+
+    constructor(call,no){
+        this.call=call;
+        this.no=no;
+    }
+
+    static hii(x){
+        return x.call +"<br>"+ x.no;
+    }
+
+    age() {
+    let date = new Date();
+    return "© "+date.getFullYear()+"| Thin Crust Pizza";
+  }
+}
+
+let ob3= new jind("Call:","+918569827060");
+document.getElementById("ankitneh").innerHTML= jind.hii(ob3);
+document.getElementById("cse2").innerHTML=ob3.age();
+
+async function loadData()
+        {
+     
+        let request = new Request("json/about.json");
+        let response =await  fetch(request);
+        let about_jsonob = await response.json();
+
+        loadimageInfo(about_jsonob);
+
+    
+        }
+function loadimageInfo(about_jsonobj){
+    let header = document.querySelector("header");
+            let imgi  = document.createElement ("img");
+            imgi.src= about_jsonobj['images'];
+           let ab= document.getElementById("about");
+           header.appendChild(imgi);
+         
+
+        }
+        
+        loadData();
+
+
+    </script>
+</body>
+</html> 

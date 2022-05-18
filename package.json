@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "init": "^0.1.2",
+    "mongoose": "^6.3.3"
+  },
+  "name": "vscodework",
+  "version": "1.0.0",
+  "main": "calc2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "description": ""
+}
